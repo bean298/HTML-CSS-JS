@@ -83,8 +83,8 @@ body > div {
   border-radius: 2px;
   padding: 20px 0;
   border-left: 4px solid;
+  z-index: 100;
   box-shadow: 0 5px 8px rgba(0, 0, 0, 0.08);
-  animation: slideInLeft ease 0.8s, fadeOut linear 1s 3s forwards; /* forward: stop at the end of point */
 }
 
 .toast + .toast {
